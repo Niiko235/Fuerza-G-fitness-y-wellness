@@ -1,0 +1,27 @@
+/* EDICION INDEX */
+
+body {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-image: url(img/fitness-4872810_1920.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+
+/* PIE DE PAGINA - FOOTER */
+
+footer {
+    /* background-color: aliceblue; */
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer img {
+    height: 100%;
+    width: auto;
+}

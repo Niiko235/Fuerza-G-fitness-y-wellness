@@ -1,0 +1,54 @@
+/* EDICION NAV */
+
+nav {
+    height: 60px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.imagen-nav {
+    margin-left: 12px;
+}
+
+.nav-opciones {
+    background-color: #e6ddc4;
+    width: 680px;
+    display: flex;
+    box-sizing: content-box;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.cont-items-nav {
+    /* background-color: chartreuse; */
+    list-style: none;
+    padding-inline-start: 0%;
+    display: flex;
+    box-sizing: border-box;
+}
+
+#item-especial {
+    margin-left: 0px;
+}
+
+.items-nav {
+    text-decoration: none;
+    /* background-color: cyan; */
+    margin-left: 12px;
+    width: auto;
+}
+
+.items-nav a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+
+/* ACCIONES */
+
+.items-nav a:hover {
+    color: dodgerblue;
+}

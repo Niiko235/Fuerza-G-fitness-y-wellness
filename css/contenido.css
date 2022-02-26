@@ -1,0 +1,83 @@
+/* TITULO */
+
+.titulo {
+    color: rgb(230, 97, 9);
+    text-align: center;
+    font-size: 25px;
+}
+
+.titulo h1 {
+    margin-block-end: 0.30em;
+}
+
+
+/* CUERPO */
+
+.contenedor-principal {
+    /* background-color: aliceblue; */
+    margin-top: 40px;
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-bottom: 50px;
+    padding: 25px;
+}
+
+.esqueleto2 {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.esqueleto3 {
+    padding-top: 40px;
+}
+
+
+/* contenedor de la seccion */
+
+.contenedor1 {
+    /* background-color: chartreuse; */
+    /* padding: 10px; */
+    /* text-align: center; */
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 460px;
+}
+
+
+/* contenedor del texto*/
+
+.texto-cont {
+    /* background-color: darkorange; */
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.texto-cont-hijo {
+    /* background-color: #e6ddc4; */
+    font-size: 20px;
+    color: whitesmoke;
+    margin-right: 30px;
+    margin-left: 30px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+
+/*  contenedor de la imagen */
+
+
+/* .img-cont {
+    background-color: brown;
+} */
+
+.img-present {
+    width: 100%;
+    height: 100%;
+    /* height: auto;
+            padding-left: 50px;
+            padding-right: 50px;
+            box-sizing: border-box;  */
+}
