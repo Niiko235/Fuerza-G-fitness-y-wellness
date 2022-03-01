@@ -25,3 +25,21 @@ footer img {
     height: 100%;
     width: auto;
 }
+
+@media (max-width:950px) {
+    body {
+        background-image: url(img/background.png);
+    }
+}
+
+@media (max-width:418px) {
+    body {
+        background-image: url(img/back2.png);
+    }
+}
+
+@media (max-width:400px) {
+    body {
+        align-content: center;
+    }
+}

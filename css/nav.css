@@ -52,3 +52,32 @@ nav {
 .items-nav a:hover {
     color: dodgerblue;
 }
+
+
+/* MEDIA QUERIES */
+
+@media (max-width:600px) {
+    .imagen-nav {
+        display: none;
+    }
+}
+
+@media (max-width:483px) {
+    .items-nav {
+        width: 50%;
+        margin: 0%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width:420px) {
+    nav {
+        height: 80px;
+    }
+    .nav-opciones {
+        display: block;
+    }
+}

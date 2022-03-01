@@ -20,6 +20,8 @@
     margin-right: 190px;
     margin-bottom: 50px;
     padding: 25px;
+    display: inline-block;
+    align-content: center;
 }
 
 .esqueleto2 {
@@ -70,14 +72,179 @@
 
 
 /* .img-cont {
-    background-color: brown;
+    width: 50%;
 } */
 
 .img-present {
     width: 100%;
     height: 100%;
+    border: solid 3px rgb(211, 91, 12);
     /* height: auto;
             padding-left: 50px;
             padding-right: 50px;
             box-sizing: border-box;  */
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width:1417px) {
+    .texto-cont {
+        width: 60%;
+    }
+    .texto-cont-hijo h1 {
+        text-align: start;
+    }
+    .img-cont {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    .img-present {
+        max-width: 90%;
+        max-height: auto;
+    }
+}
+
+@media (max-width:1300px) {
+    .contenedor-principal {
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+    #foto-diego {
+        max-height: 100%;
+        max-width: 80%;
+    }
+}
+
+@media (max-width:1150px) {
+    .contenedor-principal {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@media (max-width:1050px) {
+    .contenedor-principal {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+}
+
+@media (max-width:950px) {
+    .contenedor-principal {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+@media (max-width:900px) {
+    .contenedor1 {
+        display: block;
+        height: 780px;
+    }
+    .texto-cont {
+        height: 50%;
+        width: auto;
+        align-items: flex-end;
+    }
+    .texto-cont-hijo h1 {
+        text-align: center;
+    }
+    .img-cont {
+        height: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .img-present {
+        height: 100%;
+        width: auto;
+    }
+    .esqueleto2 {
+        padding-top: 20px;
+    }
+    .esqueleto3 {
+        padding: 20px;
+    }
+}
+
+@media (max-width:570px) {
+    .contenedor1 {
+        height: 1000px;
+    }
+}
+
+@media (max-width:510px) {
+    .contenedor-principal {
+        margin-left: 0;
+        margin-right: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .contenedor1 {
+        height: 1000px;
+    }
+    .texto-cont {
+        align-items: flex-start;
+        height: 45%;
+    }
+    .img-cont {
+        height: 40%;
+    }
+    .esqueletoNosotros {
+        height: 800px;
+    }
+    .esqueleto3 {
+        padding: 0%;
+        padding-top: 20px;
+    }
+}
+
+@media (max-width:510px) {
+    .texto-cont {
+        height: 50%;
+    }
+}
+
+@media (max-width:450px) {
+    .contenedor-principal {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .texto-cont-hijo {
+        text-align: justify;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .texto-cont {
+        height: 45%;
+    }
+}
+
+@media (max-width:407px) {
+    .contenedor-principal {
+        width: 95%;
+    }
+    .texto-cont {
+        height: 50%;
+    }
+    #cont-diego .texto-cont {
+        height: 45%;
+    }
+    #cont-nico .texto-cont {
+        height: 45%;
+    }
+}
+
+@media (max-width:359px) {
+    .texto-cont {
+        height: 55%;
+    }
+}
+
+@media (max-width:352px) {
+    .texto-cont {
+        height: 60%;
+    }
 }
