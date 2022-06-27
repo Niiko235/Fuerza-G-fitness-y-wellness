@@ -1,0 +1,100 @@
+.contenedor-principal-contactenosPadre{
+    margin-top: 40px;
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-bottom: 50px;
+    padding: 25px;
+}
+
+
+#contenedor-contactenos-hijo1{
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.contactenos-cont{
+    width: 80%;
+    display: flex;
+    box-sizing: content-box;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cont-item-contactenos{
+    width: 100%;
+    list-style: none;
+    padding-inline-start: 0%;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.item-contactenos{
+    width: auto;
+}
+
+.item-contactenos i{
+    font-size: 300%;
+}
+
+
+.item-contactenos a{
+    color: aliceblue;
+}
+
+
+
+
+/*ACCIONES*/
+.item-contactenos i:hover {
+    color: orange;
+}
+
+
+
+@media (max-width:1300px) {
+    .contenedor-principal-contactenosPadre {
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+}
+@media (max-width:1150px) {
+    .contenedor-principal-contactenosPadre {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@media (max-width:1050px) {
+    .contenedor-principal-contactenosPadre {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+}
+
+@media (max-width:950px) {
+    .contenedor-principal-contactenosPadre {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+@media (max-width:510px) {
+    .contenedor-principal-contactenosPadre {
+        margin-left: 0;
+        margin-right: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+@media (max-width:450px) {
+    .contenedor-principal-contactenosPadre {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+
+
+
